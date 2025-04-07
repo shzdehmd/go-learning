@@ -43,4 +43,10 @@ func main() {
 	default:
 		fmt.Println("Did the calendar get more days?!")
 	}
+
+	// 3. Countdown
+	for i := 5; i >= 1; i-- {
+		fmt.Println("Count is:", i)
+	}
+	fmt.Println("Blast off!")
 }
