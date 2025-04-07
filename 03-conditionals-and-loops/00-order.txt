@@ -1,2 +1,3 @@
 - Order of Learning
     - if-else-if-else.go
+    - switch.go
