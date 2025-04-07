@@ -17,6 +17,8 @@ func main() {
 		fmt.Println(number, "is zero.")
 	}
 
+	fmt.Println() // empty line for readability
+
 	// 2. Day Planner
 	dayOfWeek := "Tuesday"
 	dayOfWeek = "Monday"
@@ -44,9 +46,30 @@ func main() {
 		fmt.Println("Did the calendar get more days?!")
 	}
 
+	fmt.Println() // empty line for readability
+
 	// 3. Countdown
 	for i := 5; i >= 1; i-- {
 		fmt.Println("Count is:", i)
 	}
 	fmt.Println("Blast off!")
+
+	fmt.Println() // empty line for readability
+
+	// 4. Even Numbers
+	for i := 1; i <= 10; i++ {
+		if i%2 == 0 {
+			fmt.Println(i, "is even.")
+		}
+	}
+
+	fmt.Println() // empty line for readability
+
+	// Using continue to skip printing odd numbers
+	for i := 1; i <= 10; i++ {
+		if i%2 != 0 {
+			continue
+		}
+		fmt.Println(i, "is even.")
+	}
 }
