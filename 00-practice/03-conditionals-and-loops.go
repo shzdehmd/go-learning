@@ -16,4 +16,31 @@ func main() {
 	} else {
 		fmt.Println(number, "is zero.")
 	}
+
+	// 2. Day Planner
+	dayOfWeek := "Tuesday"
+	dayOfWeek = "Monday"
+	dayOfWeek = "Wednesday"
+	dayOfWeek = "Thursday"
+	dayOfWeek = "Friday"
+	dayOfWeek = "Saturday"
+	dayOfWeek = "Sunday"
+	dayOfWeek = "Goday"
+
+	switch dayOfWeek {
+	case "Monday":
+		fmt.Println("Time to work!")
+	case "Tuesday":
+		fmt.Println("Taco Tuesday!")
+	case "Wednesday":
+		fmt.Println("Hump day!")
+	case "Thursday":
+		fmt.Println("Almost there!")
+	case "Friday":
+		fmt.Println("Weekend is coming!")
+	case "Saturday", "Sunday":
+		fmt.Println("Weekend fun!")
+	default:
+		fmt.Println("Did the calendar get more days?!")
+	}
 }
