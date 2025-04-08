@@ -3,3 +3,4 @@
     - function-parameters.go
     - function-return-values.go
     - multiple-return-values.go
+    - variable-scope.go
